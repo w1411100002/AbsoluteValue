@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="cxxtest" date="Sun Nov 23 06:27:46 2014" tests="1" errors="0" failures="1" time="0" >
-    <testcase classname="AbsoluteValueTest" name="test_SimpleIOCompare" line="14">
-        <failure file="/var/www/html/codeit/workspace/AbsoluteValue/src/AbsoluteValueTest.h" line="16" type="failedAssertEquals" >Error: Expected (90.0010 == f), found (90.0010 != 90.0009)</failure>
-    </testcase>
-</testsuite>
