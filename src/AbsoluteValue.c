@@ -10,7 +10,7 @@ float absoluteValueMain(float N) {
 #ifndef __CXX_TEST_MAIN__
 
 int main(int argc, char** argv){
-    printf("%s\n", absoluteValueMain(argc, argv));
+    printf("%f\n", absoluteValueMain(-23.309));
     return 0;
 }
 
