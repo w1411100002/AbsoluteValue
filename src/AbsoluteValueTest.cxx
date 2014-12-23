@@ -19,12 +19,12 @@ int main( int argc, char *argv[] ) {
     return status;
 }
 bool suite_AbsoluteValueTest_init = false;
-#include "/var/www/html/codeit/workspace/AbsoluteValue/src/AbsoluteValueTest.h"
+#include "/var/www/html/codeit/workspace/AbsoluteValue_exercise/src/AbsoluteValueTest.h"
 
 static AbsoluteValueTest suite_AbsoluteValueTest;
 
 static CxxTest::List Tests_AbsoluteValueTest = { 0, 0 };
-CxxTest::StaticSuiteDescription suiteDescription_AbsoluteValueTest( "/var/www/html/codeit/workspace/AbsoluteValue/src/AbsoluteValueTest.h", 5, "AbsoluteValueTest", suite_AbsoluteValueTest, Tests_AbsoluteValueTest );
+CxxTest::StaticSuiteDescription suiteDescription_AbsoluteValueTest( "/var/www/html/codeit/workspace/AbsoluteValue_exercise/src/AbsoluteValueTest.h", 5, "AbsoluteValueTest", suite_AbsoluteValueTest, Tests_AbsoluteValueTest );
 
 static class TestDescription_suite_AbsoluteValueTest_test_SimpleIOCompare : public CxxTest::RealTestDescription {
 public:
